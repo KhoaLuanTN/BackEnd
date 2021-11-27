@@ -15,16 +15,22 @@ public class BenhNhan {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+    @NotNull
     private String ten;
+    @NotNull
     private String diaChi;
+    @NotNull
     private String cmnd;
     @Email
     private String email;
+    @NotNull
     private boolean gioiTinh;
     @Temporal(TemporalType.DATE)
     @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @NotNull
     private Date ngaySinh;
     @NumberFormat
+    @NotNull
     private String soDienThoai;
 
     @OneToOne
