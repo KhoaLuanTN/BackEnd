@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo.restcontroller;
 
 import com.example.demo.enity.DichVu;
 import com.example.demo.enity.Thuoc;
@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/thuoc")
-public class ThuocController {
+public class ThuocRestController {
     @Autowired
     ThuocRepository thuocRepository;
 

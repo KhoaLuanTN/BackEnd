@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo.restcontroller;
 
 import com.example.demo.enity.LichHen;
 import com.example.demo.repository.LichHenRepository;
@@ -13,7 +13,7 @@ import java.util.Map;
   
 @RestController
 @RequestMapping("/lichhen")
-public class LichHenController {
+public class LichHenRestController {
     @Autowired
     private LichHenRepository lichHenRepository;
     @PostMapping("/insert")

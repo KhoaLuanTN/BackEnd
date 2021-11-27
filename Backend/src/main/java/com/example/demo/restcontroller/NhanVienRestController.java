@@ -1,4 +1,4 @@
- package com.example.demo.controller;
+ package com.example.demo.restcontroller;
 
 import com.example.demo.enity.BenhNhan;
 import com.example.demo.enity.NhanVien;
@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/nhanvien")
-public class NhanVienController {
+public class NhanVienRestController {
 
     @Autowired
     NhanVienRepository nhanVienRepository;

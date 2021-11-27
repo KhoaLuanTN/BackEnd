@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo.restcontroller;
 
 import com.example.demo.enity.NhanVien;
 import com.example.demo.enity.Role;
@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/role")
-public class RoleController {
+public class RoleRestController {
     @Autowired
     RoleRepository roleRepository;
  

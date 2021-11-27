@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo.restcontroller;
 
 import com.example.demo.enity.HoaDon;
 import com.example.demo.enity.PhieuDichVu;
@@ -14,7 +14,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/phieudichvu")
-public class PhieuDichVuController{
+public class PhieuDichVuRestController{
     @Autowired
     PhieuDichVuRepository dichVuRepository;
 

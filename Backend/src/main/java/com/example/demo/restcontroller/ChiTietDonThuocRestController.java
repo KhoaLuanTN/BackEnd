@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo.restcontroller;
 
 import com.example.demo.enity.ChiTietDonThuoc;
 import com.example.demo.enity.DonThuoc;
@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/chitietdonthuoc")
-public class ChiTietDonThuocController {
+public class ChiTietDonThuocRestController {
     @Autowired
     ChiTietDonThuocRepository chiTietDonThuocRepository;
 

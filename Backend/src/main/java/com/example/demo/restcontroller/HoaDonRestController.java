@@ -1,4 +1,4 @@
- package com.example.demo.controller;
+ package com.example.demo.restcontroller;
 
 import com.example.demo.enity.HoaDon;
 import com.example.demo.enity.NhanVien;
@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/hoadon")
-public class HoaDonController {
+public class HoaDonRestController {
     @Autowired
     HoaDonRepository hoaDonRepository;
 

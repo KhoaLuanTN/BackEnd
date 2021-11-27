@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo.restcontroller;
 
 import com.example.demo.enity.BenhNhan;
 import com.example.demo.enity.DichVu;
@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/dichvu")
-public class DichVuController {
+public class DichVuRestController {
     @Autowired
     DichVuRepository dichVuRepository;
 

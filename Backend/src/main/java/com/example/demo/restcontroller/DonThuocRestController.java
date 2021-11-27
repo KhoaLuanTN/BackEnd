@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo.restcontroller;
 
 import com.example.demo.enity.DonThuoc;
 import com.example.demo.repository.DonThuocRepository;
@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/donthuoc")
-public class DonThuocController {
+public class DonThuocRestController {
     @Autowired
     DonThuocRepository donThuocRepository;
 
