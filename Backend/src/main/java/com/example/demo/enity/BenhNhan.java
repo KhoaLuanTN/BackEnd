@@ -19,7 +19,7 @@ public class BenhNhan {
     private String ten;
     @NotNull
     private String diaChi;
-    @NotNull
+    
     private String cmnd;
     @Email
     private String email;

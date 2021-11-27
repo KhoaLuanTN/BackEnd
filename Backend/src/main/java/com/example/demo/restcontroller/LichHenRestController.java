@@ -71,6 +71,8 @@ public class LichHenRestController {
         LichHen lichHen =lichHenRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Cập nhật thất bại lịch hẹn có id : " + id));
         lichHen.setTrangThai(lichhendetail.getTrangThai());
+        lichHen.setGhiChu(lichhendetail.getGhiChu());
+        lichHen.setTrieuChung(lichhendetail.getTrieuChung());
 
         final LichHen updated = lichHenRepository.save(lichHen);
         return ResponseEntity.ok(updated);

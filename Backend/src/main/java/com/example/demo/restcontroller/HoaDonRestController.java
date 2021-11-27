@@ -50,4 +50,8 @@ public class HoaDonRestController {
         final HoaDon updated = hoaDonRepository.save(hoaDon);
         return ResponseEntity.ok(updated);
     }
+    @GetMapping("/getHoaDonDaThanhToan")
+    public List<HoaDon> getHoaDonDaThanhToan() {
+        return hoaDonRepository.findListHoaDonDaThanhToan();
+    }
 }
